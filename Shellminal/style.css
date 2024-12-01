@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+b {
+    color: white;
+}
+
+#input {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+div {
+    color: white;
+}
+
+#listCMD {
+    visibility: hidden;
+}
+
+#help {
+    visibility: hidden;
+}
+
+input {
+    outline: none;
+}
+
+#feedback {
+    visibility: hidden;
+}
+
+#update {
+    visibility: hidden;
+}
