@@ -1,4 +1,4 @@
-function addItem() { // Main function
+function addItem() {
     var newItem = document.createElement("div");
     newItem.innerHTML = document.getElementById("input").value;
 
@@ -152,19 +152,6 @@ function addItem() { // Main function
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
-        document.getElementById("doc").style.visibility = "hidden";
-        document.getElementById("audio").style.visibility = "hidden";
-        document.getElementById("feedback").style.visibility = "hidden";
-        document.getElementById("listCMD").style.visibility = "hidden";
-        document.getElementById("list").style.visibility = "hidden";
-        document.getElementById("input").value = "";
-    }
-
-    if(document.getElementById("input").value === "shellminal --password [ketchup99]") {
-        location.href="https://nexs-hub.icu/admin-login/xq3RTuy98r267fV012sfWW23.html";
-        document.getElementById("update").style.visibility = "hidden";
-        document.getElementById("songs").style.visibility = "hidden";
-        document.getElementById("images").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -509,8 +496,8 @@ function addItem() { // Main function
         document.getElementById("input").value = "";
     }
 
-    if(document.getElementById("input").value === "shellminal --login [ketchup99]") {
-        document.getElementById("user").innerHTML = "C:\\Users\\admin>";
+    if(document.getElementById("input").value === "admin $$ --logout") {
+        document.getElementById("user").innerHTML = "C:\\Users\\root>";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
@@ -524,19 +511,47 @@ function addItem() { // Main function
         document.getElementById("input").value = "";
     }
 
-    if(document.getElementById("input").value === "shellminal --logout") {
-        document.getElementById("user").innerHTML = "C:\\Users\\root>";
-        document.getElementById("natureSounds").style.visibility = "hidden";
-        document.getElementById("songs").style.visibility = "hidden";
-        document.getElementById("audio").style.visibility = "hidden";
-        document.getElementById("images").style.visibility = "hidden";
-        document.getElementById("docList").style.visibility = "hidden";
-        document.getElementById("doc").style.visibility = "hidden";
+    if(document.getElementById("user").innerText === "C:\\Users\\admin>") {
+        if(document.getElementById("input").value === "run adminpage") {
+            location.href="https://nexs-hub.icu/admin-login/xq3RTuy98r267fV012sfWW23.html";
+            document.getElementById("update").style.visibility = "hidden";
+            document.getElementById("songs").style.visibility = "hidden";
+            document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("feedback").style.visibility = "hidden";
+            document.getElementById("listCMD").style.visibility = "hidden";
+            document.getElementById("list").style.visibility = "hidden";
+            document.getElementById("input").value = "";
+        }
+    }
+
+    if(document.getElementById("input").value === "admin $$ --login [ketchup99]") {
+        document.getElementById("user").innerHTML = "C:\\Users\\admin>"
         document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
         document.getElementById("list").style.visibility = "hidden";
         document.getElementById("input").value = "";
+    }
+
+    if(document.getElementById("user").innerText === "C:\\Users\\admin>") {
+        if(document.getElementById("input").value === "snakeSkola") {
+            location.href="https://nexs-hub.icu/snakeSkola.html";
+            document.getElementById("update").style.visibility = "hidden";
+            document.getElementById("songs").style.visibility = "hidden";
+            document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("feedback").style.visibility = "hidden";
+            document.getElementById("listCMD").style.visibility = "hidden";
+            document.getElementById("list").style.visibility = "hidden";
+            document.getElementById("input").value = "";
+        }
     }
 }
 
