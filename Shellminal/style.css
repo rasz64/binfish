@@ -20,10 +20,9 @@ div {
 
 #listCMD {
     visibility: hidden;
-}
-
-#help {
-    visibility: hidden;
+    position: relative;
+    z-index: 10;
+    top: -5em;
 }
 
 input {
@@ -32,8 +31,42 @@ input {
 
 #feedback {
     visibility: hidden;
+    position: relative;
+    z-index: 3;
+    top: -3.5em;
 }
 
 #update {
     visibility: hidden;
+    position: relative;
+    z-index: 4;
 }
+
+#doc {
+    margin-top: -31em;
+    visibility: hidden;
+}
+
+#docList {
+    margin-top: -3em;
+}
+
+#images {
+    margin-top: -4.5em;
+    visibility: hidden;
+}
+
+#audio {
+    margin-top: -4.5em;
+}
+
+#songs {
+    margin-top: -3.5em;
+    visibility: hidden;
+}
+
+#natureSounds {
+    margin-top: -4.5em;
+    visibility: hidden;
+}
+
