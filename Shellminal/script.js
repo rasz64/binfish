@@ -1,4 +1,4 @@
-function addItem() {
+function addItem() { // Main function
     var newItem = document.createElement("div");
     newItem.innerHTML = document.getElementById("input").value;
 
