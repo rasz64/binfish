@@ -1,0 +1,9 @@
+Shellminal.
+
+Shellminal was created in first december of 2024.
+
+I took inspiration from the windows power shell. Not that much Ubuntu but i still said so, because i needed a name for it.
+
+It's really simple. You can actually check out the code if you want to at https://github.com/rasz64/nexs-hub/tree/main/Shellminal.
+
+Thanks for reading!
