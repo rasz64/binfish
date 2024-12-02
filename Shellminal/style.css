@@ -1,4 +1,4 @@
-body { /*update*/
+body {
     background-color: black;
 }
 
@@ -67,6 +67,11 @@ input {
 
 #natureSounds {
     margin-top: -3.5em;
+    visibility: hidden;
+}
+
+#test {
+    margin-top: -4.5em;
     visibility: hidden;
 }
 
