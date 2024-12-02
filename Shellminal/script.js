@@ -1,4 +1,4 @@
-function addItem() { //update
+function addItem() {
     var newItem = document.createElement("div");
     newItem.innerHTML = document.getElementById("input").value;
 
@@ -9,6 +9,7 @@ function addItem() { //update
         document.getElementById("input").value = "";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "visible";
         document.getElementById("docList").style.visibility = "hidden";
@@ -104,6 +105,7 @@ function addItem() { //update
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
@@ -118,6 +120,7 @@ function addItem() { //update
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -131,6 +134,7 @@ function addItem() { //update
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
@@ -152,6 +156,7 @@ function addItem() { //update
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -166,6 +171,7 @@ function addItem() { //update
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -182,6 +188,7 @@ function addItem() { //update
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
         document.getElementById("list").style.visibility = "hidden";
@@ -194,6 +201,7 @@ function addItem() { //update
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -299,6 +307,7 @@ function addItem() { //update
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -315,6 +324,7 @@ function addItem() { //update
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -332,6 +342,7 @@ function addItem() { //update
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
@@ -349,6 +360,7 @@ function addItem() { //update
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
             document.getElementById("list").style.visibility = "hidden";
@@ -362,6 +374,7 @@ function addItem() { //update
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
@@ -380,6 +393,7 @@ function addItem() { //update
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
@@ -394,6 +408,7 @@ function addItem() { //update
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
@@ -410,6 +425,7 @@ function addItem() { //update
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
@@ -425,6 +441,7 @@ function addItem() { //update
         location.href="http://nexs-hub.icu/Shellminal/sea-waves.mp3";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
@@ -442,6 +459,7 @@ function addItem() { //update
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
@@ -457,6 +475,7 @@ function addItem() { //update
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
@@ -473,6 +492,7 @@ function addItem() { //update
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -486,6 +506,7 @@ function addItem() { //update
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
@@ -502,6 +523,7 @@ function addItem() { //update
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
@@ -516,6 +538,7 @@ function addItem() { //update
             location.href="https://nexs-hub.icu/admin-login/xq3RTuy98r267fV012sfWW23.html";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
@@ -531,6 +554,7 @@ function addItem() { //update
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -542,6 +566,36 @@ function addItem() { //update
     if(document.getElementById("user").innerText === "C:\\Users\\admin>") {
         if(document.getElementById("input").value === "snakeSkola") {
             location.href="https://nexs-hub.icu/snakeSkola.html";
+            document.getElementById("update").style.visibility = "hidden";
+            document.getElementById("songs").style.visibility = "hidden";
+            document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("test").style.visibility = "hidden";
+            document.getElementById("feedback").style.visibility = "hidden";
+            document.getElementById("listCMD").style.visibility = "hidden";
+            document.getElementById("list").style.visibility = "hidden";
+            document.getElementById("input").value = "";
+        }
+    }
+
+    if(document.getElementById("input").value === "admin $$ --login [test]") {
+        document.getElementById("user").innerHTML = "C:\\Users\\test>";
+        document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("feedback").style.visibility = "hidden";
+        document.getElementById("listCMD").style.visibility = "hidden";
+        document.getElementById("list").style.visibility = "hidden";
+        document.getElementById("input").value = "";
+    }
+
+    if(document.getElementById("user").innerText === "C:\\Users\\test>") {
+        if(document.getElementById("input").value === "test") {
+            document.getElementById("test").style.visibility = "visible";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
