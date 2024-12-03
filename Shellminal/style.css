@@ -75,3 +75,12 @@ input {
     visibility: hidden;
 }
 
+#bootO {
+    margin-top: -8.5em;
+    visibility: hidden;
+}
+
+#booting {
+    visibility: hidden;
+}
+
