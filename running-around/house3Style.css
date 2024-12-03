@@ -1,0 +1,30 @@
+            #player {
+                width: 25px;
+                height: 45px;
+                position: absolute;
+                top: 35%;
+                left: 5%;
+            }
+
+            #housedoor {
+                width: 30px;
+                height: 55px;
+                position: absolute;
+                top: 35%;
+                left: 0%;
+            }
+
+            #kitchen {
+                margin-left: 15%;
+            }
+
+            #bed {
+                margin-left: 35%;
+                margin-top: 20%;
+            }
+
+            button {
+                background-color: #cc6600;
+                border: 2px solid black;
+                border-radius: 7%;
+            }
