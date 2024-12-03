@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIXIUM 1.0 LTS</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header"><marquee><b>UNIXIUM 1.0 LTS</marquee></b></div>
+    <h1 id="startTitle">Welcome to Unixium 1.0 LTS</h1><br>
+
+    <center>
+        <button id="browseGames" onclick="toggleSection('games')">Games</button>
+        <button id="browseMemes" onclick="toggleSection('memes')">Memes</button>
+        <button id="browseNotepad" onclick="toggleSection('notepad')">Notepad</button>
+        <button id="browseSearch" onclick="toggleSection('___gcse_0')">Search</button>
+
+        <div id="games">
+            <b>Games to play for free:</b><br>
+            <a href="snake/snake.html"><button>snake</button></a><br>
+            <a href="pong/pong.html"><button>pong</button></a><br>
+            <a href="ball-clicker/game.html"><button>ball-clicker</button></a><br>
+            <a href="dice/index.html"><button>dice</button></a>
+        </div>
+        <div id="memes">
+            <b>Some memes in gif format.</b><br>
+            <img src="https://media1.tenor.com/m/DIHsv2bJGx4AAAAd/tf2.gif">
+            <img src="https://media1.tenor.com/m/FRKzIM-Ruy4AAAAd/o%C3%A7-fatih.gif">
+            <img src="https://media1.tenor.com/m/Xt2U3NdTzxUAAAAd/gta.gif">
+            <img src="https://media1.tenor.com/m/_jEA-2SonyUAAAAd/edp-edp445.gif"><br>
+            <img src="https://media1.tenor.com/m/qBg6z9TBhY4AAAAC/dantdm-minecraft.gif">
+            <img src="https://media1.tenor.com/m/E3SxpBr9Kk8AAAAd/my-beloved-beloved.gif">
+            <img src="https://media1.tenor.com/m/IKVLbB8dO9MAAAAd/gaming-monkey.gif">
+            <img src="https://media1.tenor.com/m/uhlJbHyhuq4AAAAd/medic-dance-facetime.gif"><br>
+            <img src="https://media1.tenor.com/m/Rw_uJLTai5gAAAAd/bowtime-bow-time.gif">
+            <img src="https://media1.tenor.com/m/XnpSGG328o8AAAAd/spongebob.gif">
+            <img src="https://media1.tenor.com/m/cKBfCfUdtLIAAAAd/orange-orange-cat.gif">
+            <img src="https://media1.tenor.com/m/rpJipknqwvgAAAAd/minions-deep.gif">
+        </div>
+        <div id="notepad">
+            <b>Why use this notepad? You can modify the website using HTML, CSS and JavaScript</b>
+            <textarea cols="60" rows="10" id="textarea"></textarea><br>
+            <button id="save_text" onclick="saveList()">Save</button>
+            <button id="load_text" onclick="loadList()">Load</button><br>
+            <b id="stored_text1">Latest saved text:</b><br>
+            <div id="stored_text2"><b></b></div>
+        </div>
+        <div class="gcse-search"></div>
+    </center>
+    <script src="index.js"></script>
+    <script async src="https://cse.google.com/cse.js?cx=b4a4550c3745440ee"></script>
+</body>
+</html>
