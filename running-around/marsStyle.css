@@ -1,0 +1,50 @@
+            #player {
+                width: 25px;
+                height: 45px;
+                position: absolute;
+                margin-top: 30%;
+                margin-left: 46%;
+                font-family: Impact;
+                animation: player 3s infinite;
+            }
+
+            @keyframes player {
+                0% {
+                    color: green;
+                }
+
+                25% {
+                    color: magenta;
+                }
+                
+                50% {
+                    color: red;
+                }
+
+                100% {
+                    color: blue;
+                }
+            }
+
+            #spaceship {
+                margin-left: 51%;
+                margin-top: 22%;
+            }
+
+            #crater1 {
+                margin-top: -30%;
+                margin-left: 40%;
+                width: 140px;
+                height: 100px;
+            }
+
+            #crater2 {
+                width: 140px;
+                height: 110px;
+            }
+
+            button {
+                background-color: #cc6600;
+                border: 2px solid black;
+                border-radius: 7%;
+            }
