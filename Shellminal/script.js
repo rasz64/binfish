@@ -1,4 +1,4 @@
-function addItem() { //update3
+function addItem() {
     var newItem = document.createElement("div");
     newItem.innerHTML = document.getElementById("input").value;
 
@@ -11,6 +11,8 @@ function addItem() { //update3
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "visible";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
@@ -104,6 +106,8 @@ function addItem() { //update3
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
@@ -121,6 +125,8 @@ function addItem() { //update3
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -135,6 +141,8 @@ function addItem() { //update3
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
@@ -155,7 +163,9 @@ function addItem() { //update3
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
@@ -171,7 +181,9 @@ function addItem() { //update3
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -188,6 +200,8 @@ function addItem() { //update3
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
@@ -204,7 +218,9 @@ function addItem() { //update3
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
         document.getElementById("list").style.visibility = "hidden";
         document.getElementById("input").value = "";
@@ -212,11 +228,13 @@ function addItem() { //update3
 
     if(document.getElementById("doc").style.visibility === "visible") {
         if(document.getElementById("input").value === "run aboutShellminal.txt") {
-            location.href="https://github.com/rasz64/nexs-hub/blob/main/Shellminal/aboutShellminal.txt";
+            location.href="aboutShellminal.txt";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
@@ -232,7 +250,9 @@ function addItem() { //update3
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
             document.getElementById("list").style.visibility = "hidden";
@@ -244,9 +264,11 @@ function addItem() { //update3
         if(document.getElementById("input").value === "run tux.png") {
             location.href="https://i.postimg.cc/dtbL8FXQ/tux.png";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
@@ -259,6 +281,8 @@ function addItem() { //update3
         if(document.getElementById("input").value === "run powershelllogo.png") {
             location.href="https://i.postimg.cc/cLTCP3CC/powershelllogo.png";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
@@ -276,8 +300,10 @@ function addItem() { //update3
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
         document.getElementById("list").style.visibility = "hidden";
@@ -292,6 +318,8 @@ function addItem() { //update3
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -306,9 +334,11 @@ function addItem() { //update3
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
@@ -323,8 +353,10 @@ function addItem() { //update3
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -342,6 +374,8 @@ function addItem() { //update3
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -358,7 +392,9 @@ function addItem() { //update3
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -377,6 +413,8 @@ function addItem() { //update3
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -390,9 +428,11 @@ function addItem() { //update3
         document.getElementById("natureSounds").style.visibility = "visible";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -407,9 +447,11 @@ function addItem() { //update3
             document.getElementById("natureSounds").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -427,6 +469,8 @@ function addItem() { //update3
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("docList").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
@@ -443,7 +487,9 @@ function addItem() { //update3
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
@@ -461,7 +507,9 @@ function addItem() { //update3
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
@@ -473,8 +521,10 @@ function addItem() { //update3
         location.href="http://nexs-hub.icu/Shellminal/bird-chirp.mp3";
         document.getElementById("natureSounds").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
@@ -492,6 +542,8 @@ function addItem() { //update3
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
@@ -509,7 +561,9 @@ function addItem() { //update3
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
@@ -523,8 +577,10 @@ function addItem() { //update3
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("docList").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("update").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -539,7 +595,9 @@ function addItem() { //update3
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
@@ -552,11 +610,13 @@ function addItem() { //update3
     if(document.getElementById("input").value === "admin $$ --login [ketchup99]") {
         document.getElementById("user").innerHTML = "C:\\Users\\admin>"
         document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
         document.getElementById("listCMD").style.visibility = "hidden";
         document.getElementById("list").style.visibility = "hidden";
@@ -570,9 +630,11 @@ function addItem() { //update3
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
             document.getElementById("test").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
             document.getElementById("list").style.visibility = "hidden";
             document.getElementById("input").value = "";
@@ -585,6 +647,8 @@ function addItem() { //update3
         document.getElementById("test").style.visibility = "hidden";
         document.getElementById("songs").style.visibility = "hidden";
         document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("bootO").style.visibility = "hidden";
         document.getElementById("doc").style.visibility = "hidden";
         document.getElementById("audio").style.visibility = "hidden";
         document.getElementById("feedback").style.visibility = "hidden";
@@ -596,11 +660,62 @@ function addItem() { //update3
     if(document.getElementById("user").innerText === "C:\\Users\\test>") {
         if(document.getElementById("input").value === "test") {
             document.getElementById("test").style.visibility = "visible";
+            document.getElementById("bootO").style.visibility = "hidden";
             document.getElementById("update").style.visibility = "hidden";
             document.getElementById("songs").style.visibility = "hidden";
             document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
             document.getElementById("doc").style.visibility = "hidden";
             document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("feedback").style.visibility = "hidden";
+            document.getElementById("listCMD").style.visibility = "hidden";
+            document.getElementById("list").style.visibility = "hidden";
+            document.getElementById("input").value = "";
+        }
+    }
+
+    if(document.getElementById("input").value === "boot options") {
+        document.getElementById("bootO").style.visibility = "visible";
+        document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("feedback").style.visibility = "hidden";
+        document.getElementById("listCMD").style.visibility = "hidden";
+        document.getElementById("list").style.visibility = "hidden";
+        document.getElementById("input").value = "";
+    }
+
+    if(document.getElementById("input").value === "boot unixium") {
+        document.getElementById("booting").style.visibility = "visible";
+        location.href="unixiumBoot.html";
+        document.getElementById("bootO").style.visibility = "hidden";
+        document.getElementById("update").style.visibility = "hidden";
+        document.getElementById("test").style.visibility = "hidden";
+        document.getElementById("booting").style.visibility = "hidden";
+        document.getElementById("songs").style.visibility = "hidden";
+        document.getElementById("images").style.visibility = "hidden";
+        document.getElementById("doc").style.visibility = "hidden";
+        document.getElementById("audio").style.visibility = "hidden";
+        document.getElementById("feedback").style.visibility = "hidden";
+        document.getElementById("listCMD").style.visibility = "hidden";
+        document.getElementById("list").style.visibility = "hidden";
+        document.getElementById("input").value = "";
+    }
+
+    if(document.getElementById("doc").style.visibility === "visible") {
+        if(document.getElementById("input").value === "run aboutUnixium.txt") {
+            location.href="aboutUnixium.txt";
+            document.getElementById("images").style.visibility = "hidden";
+            document.getElementById("audio").style.visibility = "hidden";
+            document.getElementById("docList").style.visibility = "hidden";
+            document.getElementById("bootO").style.visibility = "hidden";
+            document.getElementById("doc").style.visibility = "hidden";
+            document.getElementById("booting").style.visibility = "hidden";
+            document.getElementById("update").style.visibility = "hidden";
             document.getElementById("feedback").style.visibility = "hidden";
             document.getElementById("listCMD").style.visibility = "hidden";
             document.getElementById("list").style.visibility = "hidden";
