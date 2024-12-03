@@ -59,3 +59,8 @@
                 border: 3px solid black;
                 width: 235px;
             }
+
+            #view {
+                margin-left: auto;
+                margin-right: auto;
+            }
