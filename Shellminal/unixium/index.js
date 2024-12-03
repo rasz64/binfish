@@ -1,6 +1,10 @@
 function toggleSection(id) {
     const section = document.getElementById(id);
-    section.style.display = section.style.display === 'none' ? 'block' : 'none';
+    if (section.style.display === '' || section.style.display === 'none') {
+        section.style.display = 'block'; // Visa sektionen
+    } else {
+        section.style.display = 'none'; // Dölj sektionen
+    }
 }
 
 function saveList() {
