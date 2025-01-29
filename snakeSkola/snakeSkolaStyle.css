@@ -1,46 +1,52 @@
-            body {
-                background-color: #0066cc;
-            }
+body {
+  background-color: #0066cc;
+  font-family: roboto;
+  border-radius: 10px;
+}
 
-            #canvas {
-                background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.o8S0mQt5amY4DNuXxQ9zigHaEH%26pid%3DApi&f=1&ipt=4b2508478b2d4db67e342b635371cc98ffe0236a644c04c50022353b96826328&ipo=images");
-            }
+@font-face {
+  font-family: roboto;
+  src: url(roboto.ttf);
+}
 
-            button {
-                background-color: #000066;
-                color: white;
-                border: 2px solid black;
-                border-radius: 2%;
-                width: 160px;
-                height: 90px;
-                font-size: 30px;
-            }
+#canvas {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.o8S0mQt5amY4DNuXxQ9zigHaEH%26pid%3DApi&f=1&ipt=4b2508478b2d4db67e342b635371cc98ffe0236a644c04c50022353b96826328&ipo=images");
+}
 
-            #chosenone {
-              width: 900px;
-              height: 160px;
-              background-color: #ccccff;
-              text-align: center;
+button {
+  background-color: #000066;
+  color: white;
+  border: 2px solid black;
+  width: 160px;
+  height: 90px;
+  font-size: 30px;
+}
 
-              h1 {
-                font-size: 52px;
-              }
-            }
+#chosenone {
+  width: 900px;
+  height: 160px;
+  background-color: #ccccff;
+  text-align: center;
+  font-size: 15px;
+}
 
-            b {
-              font-size: 25px;
-              color: white;
-            }
+h1 {
+  font-size: 52px;
+}
 
-            img {
-              width: 230px;
-              height: 200px;
-              margin-top: -1vw;
-            }
+b {
+  color: white;
+  font-size: 25px;
+}
 
-            #title {
-              font-size: 25px;
-              color: white;
-              background-color: #ff6600;
-              width: 600px;
-            }
+img {
+  width: 230px;
+  height: 200px;
+  margin-top: -1vw;
+}
+
+#title {
+  color: white;
+  background-color: #ff6600;
+  width: 600px;
+}
