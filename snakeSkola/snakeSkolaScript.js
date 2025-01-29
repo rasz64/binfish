@@ -172,4 +172,9 @@
         game.tick();
       }
     };
-    gameControl.startGame();
+
+    function start() {
+      if(document.getElementById("restart").onclick) {
+        gameControl.startGame();
+      }
+    }
