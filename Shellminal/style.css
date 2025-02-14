@@ -1,86 +1,24 @@
 body {
+    margin: 1;
+    color: white;
     background-color: black;
+    font-family: ap;
+}
+
+@font-face {
+    font-family: ap;
+    src: url(ap.ttf);
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: ap;
+    font-size: medium;
 }
 
 b {
     color: white;
 }
-
-#input {
-    background-color: black;
-    color: white;
-    border: none;
-    outline: none;
-    width: 300px;
-}
-
-div {
-    color: white;
-}
-
-#listCMD {
-    visibility: hidden;
-    position: relative;
-    z-index: 10;
-    top: -5em;
-}
-
-input {
-    outline: none;
-}
-
-#feedback {
-    visibility: hidden;
-    position: relative;
-    z-index: 3;
-    top: -3.5em;
-}
-
-#update {
-    visibility: hidden;
-    position: relative;
-    z-index: 4;
-}
-
-#doc {
-    margin-top: -31em;
-    visibility: hidden;
-}
-
-#docList {
-    margin-top: -3em;
-}
-
-#images {
-    margin-top: -4.5em;
-    visibility: hidden;
-}
-
-#audio {
-    margin-top: -4.5em;
-}
-
-#songs {
-    margin-top: -3.5em;
-    visibility: hidden;
-}
-
-#natureSounds {
-    margin-top: -3.5em;
-    visibility: hidden;
-}
-
-#test {
-    margin-top: -4.5em;
-    visibility: hidden;
-}
-
-#bootO {
-    margin-top: -8.5em;
-    visibility: hidden;
-}
-
-#booting {
-    visibility: hidden;
-}
-
