@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    cursor: url(img/normal.png)10 10, auto;
+    background-color: #6F8FAF;
+    color: white;
+    font-family: cr;
+    box-sizing: border-box;
+    flex-grow: 0;
+}
+
+@font-face {
+    font-family: cr;
+    src: url(cr.ttf);
+}
+
+@media only screen and (max-device-width: 480px) {
+    @media only screen and (max-width: 600px) {
+        
+    }
+}
+
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    background-color: #6785a3;
+    padding: 15px;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-grow: 0;
+    min-width: 100px;
+    max-width: 100%;
+}
+
+.typeTitle {
+    font-size: 2rem;
+}
+
+.main {
+    width: 40rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6785a3;
+    min-width: 100px;
+    max-width: 100%;
+}
+
+button {
+    background-color: #3a4c5e;
+    cursor: url(img/pointer.png)10 10, auto;
+    border: none;
+    margin-bottom: 1rem;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    border-bottom-color: #1e2730;
+    border-bottom-style: solid;
+    border-right-color: #1e2730;
+    border-right-style: solid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+@keyframes hoverAnimImg {
+    100%{transform: rotateZ(360deg);}
+}
+
+.titleText {
+    display: inline-block;
+    border-bottom: 5px solid #57718b;
+    transition: color 1000ms;
+}
+
+.titleText:hover {
+    color: #87CEEB;
+}
+
+.titleImg {
+    width: 5rem;
+    vertical-align: middle;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+}
+
+.titleImg:hover {
+    animation-name: hoverAnimImg;
+}
