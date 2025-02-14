@@ -4,26 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shellminal</title>
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="focus()">
-    <b>Shellminal: Mix of PowerShell and Ubuntu terminal. To list all commands type list.</b><br><br>
-    <b id="user">C:\Users\root></b><input type="text" id="input">
-    <div id="list"></div>
-    <div id="update"><b>Updating system:<br><b id="numberUpdate">1</b>%</b><br>You have to stop the update when it's at 100% using shellminal --update_stop</div>
-    <div id="feedback"><b>Add rasz64 on discord to send feedback about shellminal</b></div>
-    <br>
-    <div id="listCMD"><b>Website commands:<br>index<br>oslp<br>car-game<br>big_city<br>ball_clicker<br>snake<br>pong<br>map_explorer<br>dice<br>ascii-art<br>donate<br>github<br><br>Uncategorized commands:<br>clear<br><br>Shellminal commands:<br>shellminal --feedback<br>shellminal --update<br>shellminal --update_stop<br><br>File commands:<br>cd (path/to/folder)<br>cd list<br>run (filename.filetype)<br>↓ (Name) means that it's a folder.<br>cd (path/to/folder) $$ run filename.filetype<br><br>Boot commands:<br>boot options<br>boot (operating system)</b>
-    <div id="doc"><b>Documents:<br>aboutShellminal.txt<br>aboutUnixium.txt</b></div>
-    <div id="docList"><b>List of directories:<br>Documents<br>Images<br>Audio</b></div>
-    <div id="images"><b>Images:<br>bobthebuilder.png<br>tux.png<br>powershelllogo.png</b></div>
-    <div id="audio"><b>Audio:<br>↓ Songs<br>↓ Nature sounds</b></div>
-    <div id="songs"><b>Songs:<br>gaf.mp3<br>esmi.mp3</b></div>
-    <div id="natureSounds"><b>Nature Sounds:<br>bird-chirp.mp3<br>jungle-nature.mp3<br>sea-waves.mp3</b></div>
-    <div id="test"><b>As a tester you must:<br>Be active on the shellminal.<br>Follow rules for your role.<br>Listen to what an admin says.<br></b></div>
-    <div id="bootO"><b>List of available operating systems.<br>unixium</b></div>
-    <div id="booting"><b>BOOTING UNIXIUM 1.0 LTS<br>SYSTEM UPDATING COMPLETE<br>LOAD UNIXIUM</b></div>
+<body onload="document.getElementById('input').focus();">
+    <b>Shellminal: Type list to list all commands</b><br><br>
+    <b id="user">C:\Users\root></b>
+    <input type="text" id="input" autocomplete="off"><br>
+    <b id="text"></b>
     <script src="script.js"></script>
 </body>
 </html>
