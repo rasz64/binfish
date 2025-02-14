@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(to bottom right, #6a85a0, #8eadcc);
+}
+
+
 button {
     background-color: #3a4c5e;
     cursor: pointer;
@@ -15,8 +20,4 @@ button {
     border-radius: 10px;
     padding: 10px;
     color: white;
-}
-
-body {
-    background-color: #6F8FAF;
 }
