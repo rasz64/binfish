@@ -1,13 +1,26 @@
-            body {
-                background-color: #FF8000;
-            }
+#canvas {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7xoekfqZxDbkCP6TLChaSoZvhtgWCZpUfnx5rLVtwxe5VqVaqJe55gHdH-A1Fsxos8Ss&usqp=CAU");
+}
 
-            #canvas {
-                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7xoekfqZxDbkCP6TLChaSoZvhtgWCZpUfnx5rLVtwxe5VqVaqJe55gHdH-A1Fsxos8Ss&usqp=CAU");
-            }
+button {
+    background-color: #3a4c5e;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+    border-bottom-color: #1e2730;
+    border-bottom-style: solid;
+    border-right-color: #1e2730;
+    border-right-style: solid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
 
-            button {
-                background-color: #cc6600;
-                border: 2px solid black;
-                border-radius: 7%;
-            }
+body {
+    background-color: #6F8FAF;
+}
