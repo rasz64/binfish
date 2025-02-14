@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     cursor: url(img/normal.png)10 10, auto;
-    background-color: #6F8FAF;
+    background: linear-gradient(to bottom right, #6a85a0, #8eadcc);
     color: white;
     font-family: cr;
     box-sizing: border-box;
