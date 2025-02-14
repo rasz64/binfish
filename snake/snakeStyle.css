@@ -1,3 +1,8 @@
+body {
+    background: linear-gradient(to bottom right, #6a85a0, #8eadcc);
+}
+
+
 #canvas {
    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7xoekfqZxDbkCP6TLChaSoZvhtgWCZpUfnx5rLVtwxe5VqVaqJe55gHdH-A1Fsxos8Ss&usqp=CAU");
 }
@@ -19,8 +24,4 @@ button {
     border-radius: 10px;
     padding: 10px;
     color: white;
-}
-
-body {
-    background: linear-gradient(to bottom right, #6a85a0, #8eadcc);
 }
