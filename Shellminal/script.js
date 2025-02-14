@@ -127,6 +127,7 @@ function run() {
         document.getElementById("input").value = "";
         window.open("index.html", "_blank", "width=800,height=600");
     } else if(input === "exit") {
+        window.close();
         location.href = "index.html";
     } else if(input === "dir") {
         document.getElementById("input").value = "";
