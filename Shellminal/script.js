@@ -116,7 +116,7 @@ function run() {
     input = document.getElementById("input").value;
     if(input === "list") {
         document.getElementById("input").value = "";
-        document.getElementById("text").innerHTML = "Avalible commands:<br><br>cls - clears the screen<br>ipconfig - gives you your IPv4 address<br>vm - opens a virtual machine off the terminal<br>exit- exits the terminal<br>dir - lists the directories<br>boot dir - displays the avalible Operating Systems you can install<br>boot \"operating-system\" - boots the chosen Operating System";
+        document.getElementById("text").innerHTML = "Avalible commands:<br><br>cls - clears the screen<br>ipconfig - gives you your IPv4 address<br>vm - opens a virtual machine off the terminal<br>exit - exits the terminal<br>dir - lists the directories<br>boot dir - displays the avalible Operating Systems you can install<br>boot \"operating-system\" - boots the chosen Operating System";
     } else if(input === "cls") {
         document.getElementById("input").value = "";
         document.getElementById("text").innerHTML = "";
