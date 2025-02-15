@@ -43,7 +43,6 @@
             ];
             snake.facing = "E";
             game.fruit = [{x: 1, y: 1}];
-            alert("Game over! Player scored " + game.score);
             graphics.drawGame();
             game.tick();
         },
