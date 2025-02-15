@@ -128,7 +128,7 @@ function run() {
         window.open("index.html", "_blank", "width=800,height=600");
     } else if(input === "exit") {
         window.close();
-        location.href = "https://rasz64.github.io/nexs-hub/index.html";
+        location.href = "https://rasz64.github.io/binfish/index.html";
     } else if(input === "dir") {
         document.getElementById("input").value = "";
         document.getElementById("text").innerHTML = "Directories of C Drive | C:\\Users\\root><br><br>Documents<br>Pictures";
