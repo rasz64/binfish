@@ -1,7 +1,8 @@
+
 html, body {
     margin: 0;
     cursor: url(img/normal.png)10 10, auto;
-    background: linear-gradient(to bottom right, #6a85a0, #8eadcc);
+    background: linear-gradient(to bottom right, #343434, #5b5151);
     color: white;
     font-family: cr;
     box-sizing: border-box;
@@ -14,8 +15,17 @@ html, body {
 }
 
 @media only screen and (max-device-width: 480px) {
-    @media only screen and (max-width: 600px) {
-        
+    .titleText {
+        font-size: 35px;
+        margin-top: 70px;
+    }
+
+    .titleImg {
+        width: 40px;
+    }
+
+    .copyright {
+        margin-top: 50px;
     }
 }
 
@@ -23,7 +33,7 @@ html, body {
 .title {
     font-size: 4rem;
     text-align: center;
-    background-color: #6785a3;
+    background-color: #67687a;
     padding: 15px;
     width: 40rem;
     margin-left: auto;
@@ -31,6 +41,7 @@ html, body {
     border-radius: 10px;
     box-sizing: border-box;
     flex-grow: 0;
+    height: 20rem;
     min-width: 100px;
     max-width: 100%;
 }
@@ -46,9 +57,16 @@ html, body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #6785a3;
+    background-color: #67687a;
     min-width: 100px;
     max-width: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: 160px;
+    position: relative;
+    z-index: 100;
 }
 
 button {
@@ -78,6 +96,9 @@ button {
     display: inline-block;
     border-bottom: 5px solid #57718b;
     transition: color 1000ms;
+    position: relative;
+    top: -6rem;
+    z-index: 1;
 }
 
 .titleText:hover {
@@ -89,6 +110,9 @@ button {
     vertical-align: middle;
     animation-duration: 1000ms;
     animation-iteration-count: 1;
+    position: relative;
+    top: -6rem;
+    z-index: 1;
 }
 
 .titleImg:hover {
